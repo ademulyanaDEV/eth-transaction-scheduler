@@ -8,7 +8,7 @@ Script ini ditulis dalam Python dan menggunakan library `web3.py` untuk mengotom
 - Mengirim transaksi ETH ke alamat kontrak yang ditentukan.
 - Melakukan transaksi secara berkala dalam jangka waktu yang ditentukan.
 - Mendukung multiple private key dari file `pvkey.txt`.
-- Mengelola nonce dinamis untuk setiap transaksi untuk menghindari kesalahan nonce.
+- Mengelola nonce dinamis untuk setiap transaksi guna menghindari kesalahan nonce.
 - Retry otomatis untuk transaksi yang gagal dengan exponential backoff.
 - Logging transaksi ke file `transactions.log` untuk keperluan tracking.
 
@@ -19,14 +19,14 @@ Script ini ditulis dalam Python dan menggunakan library `web3.py` untuk mengotom
 - Koneksi internet untuk mengakses node Ethereum RPC
 
 ### Instalasi
-
+   ```
 1. **Install web3**  
    Jalankan perintah berikut untuk menginstall library `web3`:
    ```bash
    pip install web3
    ```
 
-2. **Siapkan File pvkey.txt**  
+2. **Siapkan File `pvkey.txt`**  
    File `pvkey.txt` harus berisi daftar private key, dengan satu private key per baris:
    ```
    <PRIVATE_KEY_1>
@@ -46,7 +46,7 @@ Script ini ditulis dalam Python dan menggunakan library `web3.py` untuk mengotom
 
    - **`RPC_URL`**: URL RPC dari jaringan Ethereum (contohnya, Alchemy atau Infura).
    - **`CONTRACT_ADDRESS`**: Alamat kontrak tujuan untuk transaksi.
-   - **`METHOD_ID`**: ID metode dalam bentuk hexadecimal yang dipakai untuk menyertakan data khusus pada transaksi. (Contoh: `0x12345678`).
+   - **`METHOD_ID`**: ID metode dalam bentuk hexadecimal yang dipakai untuk menyertakan data khusus pada transaksi (contoh: `0x12345678`).
 
    Atau, Anda bisa langsung mengganti `"RPC_URL_NETWORK"`, `"CONTRACT_DEPOSIT"`, dan `'METHOD HEX'` dengan nilai sesuai jaringan dan kontrak yang Anda gunakan jika ingin langsung mengedit di script.
 
@@ -105,5 +105,6 @@ Program ini dapat digunakan dan dimodifikasi sesuai kebutuhan Anda.
 ## Kontribusi
 
 Anda dipersilakan untuk memberikan kontribusi pada proyek ini dengan melakukan pull request atau melaporkan issue.
-
 ```
+
+Markdown di atas sudah disusun dengan urutan dan tata letak yang memudahkan pembaca untuk memahami fungsi dan penggunaan script ini.

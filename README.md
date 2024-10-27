@@ -106,3 +106,9 @@ Program ini dapat digunakan dan dimodifikasi sesuai kebutuhan Anda.
 
 Anda dipersilakan untuk memberikan kontribusi pada proyek ini dengan melakukan pull request atau melaporkan issue.
 ```
+
+DONATION
+ademulyana.base.eth
+0xF752DD7b15cA370127F0E0B7A7f36A5693dE01ad
+
+Telegram Group : https://t.me/airdropexplorerindonesia

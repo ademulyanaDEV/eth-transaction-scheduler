@@ -106,5 +106,3 @@ Program ini dapat digunakan dan dimodifikasi sesuai kebutuhan Anda.
 
 Anda dipersilakan untuk memberikan kontribusi pada proyek ini dengan melakukan pull request atau melaporkan issue.
 ```
-
-Markdown di atas sudah disusun dengan urutan dan tata letak yang memudahkan pembaca untuk memahami fungsi dan penggunaan script ini.
